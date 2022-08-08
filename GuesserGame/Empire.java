@@ -1,5 +1,5 @@
 
-class Empire
+class Umpire
 {
 	int guesserNum;
 	int player1Num;
