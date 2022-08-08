@@ -11,7 +11,7 @@ public class Welcome
 	public void welcomePage()
 	{
 		
-		Empire emp = new Empire();
+		Umpire ump = new Umpire();
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -37,9 +37,9 @@ public class Welcome
 				switch(select)
 				{
 				case 'p':
-					emp.takeNumberFromGuesser();
-					emp.takeNumberFromPlayer();
-					emp.compare();
+					ump.takeNumberFromGuesser();
+					ump.takeNumberFromPlayer();
+					ump.compare();
 					break;
 					
 				case 'h':
